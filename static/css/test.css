@@ -1,0 +1,32 @@
+/*div {
+  border-style: solid;
+  border-width:1px;
+  border-color: red;
+}*/
+html {
+  height: 100%;
+  min-height: 100%;
+}
+body {
+    min-height: 100%;
+    position: relative;
+}
+p {
+  margin-bottom: 0px;
+}
+/*.main_ {
+  margin-bottom: 200px;
+}*/
+.listing_block {
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.vote {
+  margin-top: 15px;
+}
+
+.bets{
+    margin-top: 60px;
+}

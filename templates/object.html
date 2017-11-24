@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block nav %}
+    {% include "nav.html" %}
+{% endblock %}
+
+{% block content %}
+
+        <div class="container">
+
+                <div class="horse">
+                    <p><h3><font color="#ff8c00">Horse{{ horse.id }}</font></h3><p>
+                    <div class="row">
+                        <div class="col-md-2">
+                          <img src="/img/horse.jpg" style="margin-bottom:5px" width="130" height="130"></img>
+                        </div>
+                        <div class="col-md-6">
+                            <p><font color="#808080"><h5>
+                            Some text about horse
+                            </h5></font></p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="bets">
+                    <p><h3><font color="black">Bets</font></h3><p>
+                    <ol style="padding-left: 17px">
+                        <li>User1</li>
+                        <li>User2</li>
+                        <li>User3</li>
+                        <li>User4</li>
+                        <li>User5</li>
+                    </ol>
+                </div>
+
+
+                <button type="button" class="btn btn-outline-warning">My bet!</button>
+
+            </div>
+        </div>
+{% endblock %}
